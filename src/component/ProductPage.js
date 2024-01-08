@@ -6,13 +6,6 @@ const ProductPage = ({prod}) => {
 
   return (
     <div className='flex flex-col justify-center items-center shadow-lg w-60 gap-1.5 p-5 text-center flex-nowrap'>
-      {/* <div className="max-w-sm rounded overflow-hidden shadow-lg">
-       <img className="w-full" src={prod.img} alt={prod.name} />
-       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">{prod.name}</div>
-        <p className="text-gray-700 text-base">{prod.price}</p>
-       </div>
-      </div> */}
       <img src={prod.img} alt='product-image' className='w-60 h-60' />
       <h1 className='text-lg'>{prod.name}</h1>
       <p className='p-1 text-black text-center'>{prod.description}</p>
